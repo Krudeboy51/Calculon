@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		942EE62A1DB1143D000171C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942EE6291DB1143D000171C2 /* AppDelegate.swift */; };
+		942EE62C1DB1143D000171C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942EE62B1DB1143D000171C2 /* ViewController.swift */; };
+		942EE62F1DB1143D000171C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942EE62D1DB1143D000171C2 /* Main.storyboard */; };
+		942EE6311DB1143D000171C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 942EE6301DB1143D000171C2 /* Assets.xcassets */; };
+		942EE6341DB1143D000171C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 942EE6321DB1143D000171C2 /* LaunchScreen.storyboard */; };
+		942EE63F1DB1143D000171C2 /* calculonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942EE63E1DB1143D000171C2 /* calculonTests.swift */; };
+		942EE64A1DB1143D000171C2 /* calculonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942EE6491DB1143D000171C2 /* calculonUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		942EE63B1DB1143D000171C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942EE61E1DB1143D000171C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942EE6251DB1143D000171C2;
+			remoteInfo = calculon;
+		};
+		942EE6461DB1143D000171C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 942EE61E1DB1143D000171C2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 942EE6251DB1143D000171C2;
+			remoteInfo = calculon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		942EE6261DB1143D000171C2 /* calculon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		942EE6291DB1143D000171C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		942EE62B1DB1143D000171C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		942EE62E1DB1143D000171C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		942EE6301DB1143D000171C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		942EE6331DB1143D000171C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		942EE6351DB1143D000171C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942EE63A1DB1143D000171C2 /* calculonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		942EE63E1DB1143D000171C2 /* calculonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculonTests.swift; sourceTree = "<group>"; };
+		942EE6401DB1143D000171C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		942EE6451DB1143D000171C2 /* calculonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = calculonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		942EE6491DB1143D000171C2 /* calculonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calculonUITests.swift; sourceTree = "<group>"; };
+		942EE64B1DB1143D000171C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		942EE6231DB1143D000171C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942EE6371DB1143D000171C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942EE6421DB1143D000171C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		942EE61D1DB1143D000171C2 = {
+			isa = PBXGroup;
+			children = (
+				942EE6281DB1143D000171C2 /* calculon */,
+				942EE63D1DB1143D000171C2 /* calculonTests */,
+				942EE6481DB1143D000171C2 /* calculonUITests */,
+				942EE6271DB1143D000171C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		942EE6271DB1143D000171C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				942EE6261DB1143D000171C2 /* calculon.app */,
+				942EE63A1DB1143D000171C2 /* calculonTests.xctest */,
+				942EE6451DB1143D000171C2 /* calculonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		942EE6281DB1143D000171C2 /* calculon */ = {
+			isa = PBXGroup;
+			children = (
+				942EE6291DB1143D000171C2 /* AppDelegate.swift */,
+				942EE62B1DB1143D000171C2 /* ViewController.swift */,
+				942EE62D1DB1143D000171C2 /* Main.storyboard */,
+				942EE6301DB1143D000171C2 /* Assets.xcassets */,
+				942EE6321DB1143D000171C2 /* LaunchScreen.storyboard */,
+				942EE6351DB1143D000171C2 /* Info.plist */,
+			);
+			path = calculon;
+			sourceTree = "<group>";
+		};
+		942EE63D1DB1143D000171C2 /* calculonTests */ = {
+			isa = PBXGroup;
+			children = (
+				942EE63E1DB1143D000171C2 /* calculonTests.swift */,
+				942EE6401DB1143D000171C2 /* Info.plist */,
+			);
+			path = calculonTests;
+			sourceTree = "<group>";
+		};
+		942EE6481DB1143D000171C2 /* calculonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				942EE6491DB1143D000171C2 /* calculonUITests.swift */,
+				942EE64B1DB1143D000171C2 /* Info.plist */,
+			);
+			path = calculonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		942EE6251DB1143D000171C2 /* calculon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942EE64E1DB1143D000171C2 /* Build configuration list for PBXNativeTarget "calculon" */;
+			buildPhases = (
+				942EE6221DB1143D000171C2 /* Sources */,
+				942EE6231DB1143D000171C2 /* Frameworks */,
+				942EE6241DB1143D000171C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = calculon;
+			productName = calculon;
+			productReference = 942EE6261DB1143D000171C2 /* calculon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		942EE6391DB1143D000171C2 /* calculonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942EE6511DB1143D000171C2 /* Build configuration list for PBXNativeTarget "calculonTests" */;
+			buildPhases = (
+				942EE6361DB1143D000171C2 /* Sources */,
+				942EE6371DB1143D000171C2 /* Frameworks */,
+				942EE6381DB1143D000171C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942EE63C1DB1143D000171C2 /* PBXTargetDependency */,
+			);
+			name = calculonTests;
+			productName = calculonTests;
+			productReference = 942EE63A1DB1143D000171C2 /* calculonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		942EE6441DB1143D000171C2 /* calculonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 942EE6541DB1143D000171C2 /* Build configuration list for PBXNativeTarget "calculonUITests" */;
+			buildPhases = (
+				942EE6411DB1143D000171C2 /* Sources */,
+				942EE6421DB1143D000171C2 /* Frameworks */,
+				942EE6431DB1143D000171C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				942EE6471DB1143D000171C2 /* PBXTargetDependency */,
+			);
+			name = calculonUITests;
+			productName = calculonUITests;
+			productReference = 942EE6451DB1143D000171C2 /* calculonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		942EE61E1DB1143D000171C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kory E King";
+				TargetAttributes = {
+					942EE6251DB1143D000171C2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					942EE6391DB1143D000171C2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 942EE6251DB1143D000171C2;
+					};
+					942EE6441DB1143D000171C2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 942EE6251DB1143D000171C2;
+					};
+				};
+			};
+			buildConfigurationList = 942EE6211DB1143D000171C2 /* Build configuration list for PBXProject "calculon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 942EE61D1DB1143D000171C2;
+			productRefGroup = 942EE6271DB1143D000171C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				942EE6251DB1143D000171C2 /* calculon */,
+				942EE6391DB1143D000171C2 /* calculonTests */,
+				942EE6441DB1143D000171C2 /* calculonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		942EE6241DB1143D000171C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942EE6341DB1143D000171C2 /* LaunchScreen.storyboard in Resources */,
+				942EE6311DB1143D000171C2 /* Assets.xcassets in Resources */,
+				942EE62F1DB1143D000171C2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942EE6381DB1143D000171C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942EE6431DB1143D000171C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		942EE6221DB1143D000171C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942EE62C1DB1143D000171C2 /* ViewController.swift in Sources */,
+				942EE62A1DB1143D000171C2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942EE6361DB1143D000171C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942EE63F1DB1143D000171C2 /* calculonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		942EE6411DB1143D000171C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				942EE64A1DB1143D000171C2 /* calculonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		942EE63C1DB1143D000171C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942EE6251DB1143D000171C2 /* calculon */;
+			targetProxy = 942EE63B1DB1143D000171C2 /* PBXContainerItemProxy */;
+		};
+		942EE6471DB1143D000171C2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 942EE6251DB1143D000171C2 /* calculon */;
+			targetProxy = 942EE6461DB1143D000171C2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		942EE62D1DB1143D000171C2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942EE62E1DB1143D000171C2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		942EE6321DB1143D000171C2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				942EE6331DB1143D000171C2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		942EE64C1DB1143D000171C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		942EE64D1DB1143D000171C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		942EE64F1DB1143D000171C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = calculon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrkking.calculon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		942EE6501DB1143D000171C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = calculon/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrkking.calculon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		942EE6521DB1143D000171C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = calculonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrkking.calculonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculon.app/calculon";
+			};
+			name = Debug;
+		};
+		942EE6531DB1143D000171C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = calculonTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrkking.calculonTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/calculon.app/calculon";
+			};
+			name = Release;
+		};
+		942EE6551DB1143D000171C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = calculonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrkking.calculonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = calculon;
+			};
+			name = Debug;
+		};
+		942EE6561DB1143D000171C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = calculonUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mrkking.calculonUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = calculon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		942EE6211DB1143D000171C2 /* Build configuration list for PBXProject "calculon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942EE64C1DB1143D000171C2 /* Debug */,
+				942EE64D1DB1143D000171C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		942EE64E1DB1143D000171C2 /* Build configuration list for PBXNativeTarget "calculon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942EE64F1DB1143D000171C2 /* Debug */,
+				942EE6501DB1143D000171C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		942EE6511DB1143D000171C2 /* Build configuration list for PBXNativeTarget "calculonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942EE6521DB1143D000171C2 /* Debug */,
+				942EE6531DB1143D000171C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		942EE6541DB1143D000171C2 /* Build configuration list for PBXNativeTarget "calculonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				942EE6551DB1143D000171C2 /* Debug */,
+				942EE6561DB1143D000171C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 942EE61E1DB1143D000171C2 /* Project object */;
+}
